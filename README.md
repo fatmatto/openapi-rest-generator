@@ -6,7 +6,7 @@ Automatically generate OpenApi specification document (yaml or json) for a REST 
 ### Usage
 
 ```bash
-node index.js 
+node index.js \
   --resource=User,Users \
   --resource=Group,Groups \
   --resource=Role,Roles \
